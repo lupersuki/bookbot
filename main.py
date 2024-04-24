@@ -30,7 +30,4 @@ def count_letters(text):
         letters_dict[lowered] += 1
     return letters_dict
 
-def sort_on(dict):
-    return dict["num"]
-
 main()
